@@ -1,10 +1,15 @@
 import '../styles/Header.css'
 
 function Header() {
-    const title = 'Immo Eliza'
+    
     return (
         <div className='Header'>
-            <h1>{title}</h1>
+            <div className='titles'>
+               <h1>Immo Eliza</h1>
+                <h2>Looking for your new cocoon ? </h2> 
+            </div>
+            
+    
         </div>
     )
 }

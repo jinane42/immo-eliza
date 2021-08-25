@@ -1,3 +1,16 @@
 .form {
-    background-color: white
+    width: 50%;
+    border: solid white 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.664);
+    margin-bottom: 3%;
+}
+
+
+.label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding: 10px 0px
 }
